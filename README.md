@@ -4,13 +4,21 @@ The purpose of this project is to compile data from different UFO encounters aro
 ## Overview: 
 This project focuses on building a dynamic webpage that accepts user inputs and adjusts accordingly to display information about UFO sightings. The request from a client was to display a table organizing UFO data stored as a JavaScript array. In order to perform their analysis, users will be able to filter the UFO sightings table based on multiple criteria such as the event date, city, state, country and shape, which let users to refine their search on more than one level is absolutely necessary.
 
+Besides JavaScript, also used the following to build the dynamic web-page:
+
+- The data for the table is stored in a JavaScript array as [data.js](https://github.com/NensiH/UFOs/blob/main/static/js/data.js)
+- The table is built by inserting JavaScript into HTML page through [app.py](https://github.com/NensiH/UFOs/blob/main/static/js/app.js)
+- HTML to build the webpage [index.html](https://github.com/NensiH/UFOs/blob/main/index.html)
+- CSS and Bootstrap to build and style the page through  [style.css](https://github.com/NensiH/UFOs/blob/main/static/css/style.css)
+- Chrome Developer Tools to test the code.
+
 ## Resources
 
 - **Data Source:**
   -  [data.js](https://github.com/NensiH/UFOs/blob/main/static/js/data.js) (JavaScript list)
 - **Software:** 
   -  VS Code, Chrome Developer Tools
-- **Languages: **
+- **Languages:**
   - JavaScript, HTML, CSS and Bootstrap 3
 - **Dependencies:** 
   - D3.js
@@ -30,7 +38,9 @@ On the webpage you can scroll through the table to see all of the different UFO 
 To reset the filter, the user has two choices. User can either clear input manually by deleting input cell or click the refresh button UFO Sightings that can be found at the top left corner of the page on the navbar. After the filter is cleared, the user can use filter again.
 
 <p align="center"><img width="358" alt="Screen Shot 2022-01-12 at 9 09 58 AM" src="https://user-images.githubusercontent.com/92277581/149241376-a87d45de-6ab9-4f19-b65b-0d90cbb2a4b8.png"></p>
+
 ### Link to UFO Sightings webpage
+
 The deployed webpage is accessible at https://nensih.github.io/UFOs/.
 
 ## Summary
@@ -39,5 +49,5 @@ Overall, the webpage is clean and visually appealing. The site opens with an int
 The drawback of this design are:
 
   1. Filters would be more easier to use if there were drop-down menus availabe for all search box.
-  2. It would be easy for user, if Reset/clear filter button would be closer to filter parameters table.
+  2. It would be easy for user, if Reset/clear filter button would be closer to filter parameters table instead of on the top left corner of the page.
   
